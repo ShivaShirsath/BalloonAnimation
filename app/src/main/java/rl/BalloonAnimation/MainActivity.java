@@ -26,7 +26,7 @@ public class MainActivity extends Activity {
     }
     public void onSlide(View view) {
 		if (isT) {
-			start = layout.getHeight();
+			start = layout.getHeight() - balloon.getHeight();
 			end = 0;
 		} else {
 			start = 0;
